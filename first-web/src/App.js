@@ -13,7 +13,7 @@ function App() {
       <img className="photo" src={logo} alt="kk"/>
       <div className="about">
         <h1>About</h1>
-        <h2>Hello, I am Krishn Kant Shukla.<br/>
+        <h2>Hello, I am Abhay Kumar Tiwari<br/>
         Doing my Bachelor in Computer Application.<br/>
         with specialization in Data Science<br/>
         from Babu Banarsi Das University.</h2>
