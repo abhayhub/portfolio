@@ -1,2 +1,2 @@
 # portfolio
-Just a Simple Portfolio Website . I have created this projecct in React js.
+Just a Simple Portfolio Website and  I have used React js in this project.
