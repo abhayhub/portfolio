@@ -1,5 +1,7 @@
 import './App.css';
 import logo from '../src/abhay.jpg';
+import hack from '../src/hacker.png';
+import ninjas from '../src/code studio.png';
 
 function App() {
   return (
@@ -27,6 +29,14 @@ function App() {
            which developed a real time tracker of campus events.</li><br/>
            <li>Creating software to recognize your face and face to open a door or as a password enabling mechanism</li>
         </ul>
+      </div>
+
+      <div className="Achivment">
+        <h1>Achivement</h1>
+        <img className="rank" src={hack}/>
+        <img className="std" src={ninjas}/>
+
+
       </div>
       
       <div className="Skills">
