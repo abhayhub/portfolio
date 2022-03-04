@@ -2,12 +2,22 @@
   margin: 0%;
   padding: 0%;
   width: 100%;
-  height: 500%;
+  scroll-behavior:smooth;
+  height: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #282c34
 }
 
 .nav {
   overflow: hidden;
+  position: relative;
+}
+
+.nav{
+  position: fixed;
+  background-color: #282c34;
+  top: -15px;
+  width: 100%;
 }
 .nav a  {
   float: left;
@@ -25,18 +35,21 @@
 }
 
 .photo{
-  margin-left: 25px;
-  margin-top: 35px;
-  width: 25%;
-  border: 5px solid #22f6bc;
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-top: 4.7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  border: 3px solid #22f6bc;
   box-shadow: 5px;
 }
 
-.photo{
-  animation-name: sample;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+.photo:hover{
+  opacity: 0.3;
+  visibility: visible;
 }
 
 .about{
@@ -45,47 +58,46 @@
   margin-left: 45%;
   justify-content: center;
   align-items: center;
+  border: 3px solid #22f6bc;
   color: #f2f2f2;
   flex-direction: column;
   width: 50%;
-  border: 5px solid #22f6bc;
+  
   border-radius: 10px;
   
 }
 
-.about{
-  animation-name: changecolor;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+.about button{
+  width: 15%;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #282c34
+}
+.btn{
+  border: 2px solid #282c34;
+}
+.btn:hover{
+  border:2px solid #22f6bc;
+  cursor: pointer;
 }
 
-@keyframes changecolor{
-  from{
-    border:5 px solid #22f6bc;
-  }
-  to{
-    border: 5px solid blueviolet;
-  }
-}
+
 
 .project {
   margin-top: 15%;
+  font-size: 1.5rem;
   margin-left: 31%;
   width:50%;
   justify-content: center;
   align-items: center;
   color: white;
-  border: 5px solid #22f6bc;
+  border: 3px solid #22f6bc;
   border-radius: 8px;
 }
 
-.project{
-  animation-name: changecolor;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 
 .project h1{
   text-align: center;
@@ -131,7 +143,7 @@
   margin-left: 40px;
   border-radius: 10px;
   margin-top:45px;
-  border:5px solid #22f6bc;
+  border:3px solid #22f6bc;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -143,6 +155,11 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+.Skills h1{
+  display: flex;
+  justify-content: center;
 }
 
 .Skills p{
@@ -158,16 +175,6 @@
 .copy{
   text-align: center;
   color: white;
-}
-@keyframes sample{
-  from{
-    border-radius: 0%;
-    border: 5px solid #22f6bc;
-  }
-  to{
-    border-radius: 20%;
-    border: 5px solid blueviolet;
-  }
 }
 
 

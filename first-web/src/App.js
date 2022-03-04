@@ -1,5 +1,5 @@
 import './App.css';
-import logo from '../src/abhay.jpg';
+import logo from '../src/removebg.png';
 import hack from '../src/hacker.png';
 import ninjas from '../src/code studio.png';
 
@@ -7,21 +7,22 @@ function App() {
   return (
     <div className="App">
       <div className="nav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <a class="active" href="#abt">About</a>
+      <a href="#prj">Project</a>
+      <a href="#achiv">Achivement</a>
+      <a href="#skl">Skill</a>
       </div>
-      <img className="photo" src={logo} alt="kk"/>
-      <div className="about">
+      <img className="photo"  src={logo}/>
+      <div className="about" id="abt">
         <h1>About</h1>
         <h2>Hello, I am Abhay Kumar Tiwari<br/>
         Doing my Bachelor in Computer Application.<br/>
         with specialization in Data Science<br/>
         from Babu Banarsi Das University.</h2>
+        <button className="btn">Hire me</button>
       </div>
 
-      <div className="project">
+      <div className="project" id="prj">
         <h1>Projects</h1>
         <ul>
           <li>Built web scraper in Python that got data from websites of campus groups then built an ETL.</li><br/>
@@ -31,7 +32,7 @@ function App() {
         </ul>
       </div>
 
-      <div className="Achivment">
+      <div className="Achivment" id="achiv">
         <h1>Achivement</h1>
         <img className="rank" src={hack}/>
         <img className="std" src={ninjas}/>
@@ -39,7 +40,8 @@ function App() {
 
       </div>
       
-      <div className="Skills">
+      <div className="Skills" id="skl">
+        <h1>Skill</h1>
       <p>React</p>
       <div class="container">
       <div class=" react">90%</div>
