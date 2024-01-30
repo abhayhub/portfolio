@@ -26,7 +26,7 @@ function Hero() {
         <h2 className='text-5xl text-rose-600  uppercase font-bold'>Abhay Tiwari</h2>
         <h3 className='py-5 text-2xl'>Front-End Developer</h3>
         <p className='max-w-xl font-light text-gray-400'>Hiii<span className='animate-pulse text-4xl'>👋</span>,
-        I am Abhay Tiwari a aspiring front-end developer. I love to work on web dev projcets.</p>
+        I am Abhay Tiwari a aspiring front-end developer. I love to work on web dev projcets.I have  a good understanding of Javascript and React js</p>
 
         {/* socila icons*/}
         <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
